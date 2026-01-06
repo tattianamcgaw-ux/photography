@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>John Doe Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>John Doe Photography</h1>
+  <nav>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="btn">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Capturing moments that matter</h2>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <h3>Portfolio</h3>
+  <div class="grid">
+    <img src="images/weddings/wed1.jpg" alt="Wedding photography">
+    <img src="images/events/event1.jpg" alt="Event photography">
+    <img src="images/concerts/concert1.jpg" alt="Concert photography">
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h3>About</h3>
+  <p>
+    I’m a freelance photographer specializing in weddings, events, and live performances.
+    My work focuses on authentic moments, storytelling, and clean, timeless imagery.
+  </p>
+</section>
+
+<section id="contact" class="contact">
+  <h3>Let’s work together</h3>
+  <a href="mailto:email@example.com" class="btn">Get in touch</a>
+</section>
+
+<footer>
+  <p>© 2026 John Doe Photography</p>
+</footer>
+
+</body>
+</html>

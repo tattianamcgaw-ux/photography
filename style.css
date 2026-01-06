@@ -1,1 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  background: #fff;
+  line-height: 1.6;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+
+.site-header a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #111;
+}
+
+.btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+}
+
+.hero {
+  height: 80vh;
+  background: url('../images/hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.hero h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  color: white;
+  max-width: 600px;
+}
+
+.portfolio {
+  padding: 4rem 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.grid img:hover {
+  transform: scale(1.03);
+}
+
+.about, .contact {
+  padding: 4rem 3rem;
+  max-width: 800px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
 
